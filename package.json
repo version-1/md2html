@@ -8,6 +8,8 @@
     "react-scripts": "2.0.5",
     "showdown": "^1.8.7"
   },
+  "homepage": "https://version-1.github.io/md2html/",
+  "description": "md2html is converter tool on web. The markdwon you write paste this. you can get html built from the sentences",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
