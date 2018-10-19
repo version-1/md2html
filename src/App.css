@@ -1,32 +1,73 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  /* TODO: mediaquery入れる */
+  max-width: 50%;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.markdown-container {
+  flex: 1;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textarea {
+  padding: 15px;
+  width: 100%;
+  letter-spacing: 0.8px;
+}
+
+.markdown-area {
+}
+
+.html-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.html-area {
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+.btn:active {
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.btn-convert {
+  width: 50%;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.arrow-container {
+  display: flex;
+  margin: auto;
+  margin-left: 15px;
+}
+
+.arrow {
+  height: 0px;
+  border-color: #d9534f;
+  border-style: solid;
+  border-width: 15px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
 }
